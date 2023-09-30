@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Color Guessing Game</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Color Guessing Game</h1>
+      <div id="gameContent">
+        <div id="colorDisplay"></div>
+        <button id="toggleDisplay">Toggle Display</button>
+        <div id="message"></div>
+        <div id="correctColorDisplay" class="color-display"></div>
+        <button id="reset" style="display: none">Play Again</button>
+        <div id="options"></div>
+        <button id="nextButton">Next</button>
+      </div>
+      <button id="buyLives">Buy Lives (Cost: 30pts)</button>
+      <div id="gameControls">
+        <button id="easyMode">Easy Mode</button>
+        <button id="hardMode">Hard Mode</button>
+      </div>
+      <div id="gameScore">
+        <div id="livesDisplay">Lives: 3</div>
+        <div id="pointsDisplay">Points: 0</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

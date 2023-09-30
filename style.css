@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #333;
+}
+
+#gameContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1em;
+}
+
+#colorDisplay {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #333;
+}
+
+#gameControls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 1em;
+}
+
+#gameScore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 1em;
+}
+
+#toggleDisplay,
+#reset,
+#nextButton,
+#easyMode,
+#hardMode,
+#buyLives {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#toggleDisplay:hover,
+#reset:hover,
+#nextButton:hover,
+#easyMode:hover,
+#hardMode:hover,
+#buyLives:hover {
+  background-color: #0052aa;
+}
+
+#options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.guessBtn {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#correctColorDisplay {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
